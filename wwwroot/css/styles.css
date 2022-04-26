@@ -1,0 +1,22 @@
+
+body{
+  color: #5e6472;
+}
+
+container{
+  margin-top: 20px;
+  text-align: center;
+}
+
+a.navbar-brand{
+  text-decoration: none;
+  color: #595758;
+}
+a{
+  text-decoration: none;
+  color:#595758;
+}
+a:hover{
+  text-decoration: underline;
+  color:#595758;
+}

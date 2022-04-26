@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shard - Hello World Technical!</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: #FFE4F3;">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          @Html.ActionLink("Home", "Index","Home", null, new {@class ="nav-item nav-link"})
+          @Html.ActionLink("Items", "Index", "Items", null, new {@class ="nav-item nav-link"})
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      @RenderBody()
+    </div>
+  </body>
+</html>
